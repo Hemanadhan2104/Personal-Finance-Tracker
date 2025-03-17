@@ -13,6 +13,18 @@ from income_management import add_income, get_income
 from datetime import datetime
 # from forex_python.converter import CurrencyRates
 
+st.markdown(
+    """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 st.set_page_config(page_title="Personal Financial Tracker", layout="wide")
 
 # Initialize session state
