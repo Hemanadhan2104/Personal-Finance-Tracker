@@ -12,6 +12,7 @@ from email_service import send_email
 from income_management import add_income, get_income
 from datetime import datetime
 # from forex_python.converter import CurrencyRates
+st.set_page_config(page_title="Personal Financial Tracker", layout="wide")
 
 st.markdown(
     """
